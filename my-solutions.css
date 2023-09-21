@@ -1,0 +1,115 @@
+.ex-1-square
+{
+    transition: all 3s ease
+}
+.ex-1-square:hover
+{
+    background-color: red;
+}
+.ex-2-square
+{
+    transition: width 3s ease-in-out;
+}
+.ex-2-square:active
+{
+    width: 70%;
+}
+.ex-3-square
+{
+    transition: border-radius 2s;
+}
+.ex-3-square:hover
+{
+    border-radius: 50%;
+}
+.ex-4-square
+{
+    transition: opacity 1.7s;
+}
+.ex-4-square:hover
+{
+    opacity: 0
+}
+.ex-5-square
+{
+    transition: transform 1s ease;
+}
+.ex-5-square:hover
+{
+    transform: scale(1.5);
+}
+.ex-5-square:active
+{
+    transform: scale(0.6);
+}
+.ex-6-img:hover
+{
+    filter: grayscale(100%);
+}
+.ex-7-img
+{
+    transition: filter 1.9s ease-out;
+}
+.ex-7-img:hover
+{
+    filter: sepia(80%) hue-rotate(240deg);
+}
+.ex-8-img
+{
+    transition: all 1s ease;
+}
+.ex-8-img:hover
+{
+    filter: invert(20%) sepia(30%);
+    border-radius: 40px;
+}
+.ex-9-img
+{
+    transition: all 1s ease-in-out;
+}
+.ex-9-img:hover
+{
+    filter: blur(1px) opacity(87%);
+    border-radius: 40px;
+    scale: 1.2;
+}
+.ex-10-icon
+{
+    animation: roteo 1.5s linear infinite;
+}
+@keyframes roteo{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.ex-11-icon 
+{
+    animation: roteo-dietro 1.5s  ease-in infinite;
+}
+@keyframes roteo-dietro{
+    70%{
+        rotate: 270deg;
+    }
+    100%
+    {
+        rotate: 0deg;
+    }
+}
+.ex-12-button:hover .ex-12-top-white {
+    animation: sopra 2s linear;
+}
+@keyframes sopra {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 50%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
